@@ -28,7 +28,7 @@
 		094EB83C28F5FBD90060C2FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		094EB83E28F5FBDC0060C2FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		094EB84128F5FBDC0060C2FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		094EB84328F5FBDC0060C2FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "HW-15/Info.plist"; sourceTree = SOURCE_ROOT; };
+		094EB84328F5FBDC0060C2FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "HW-15/Resources/Info.plist"; sourceTree = SOURCE_ROOT; };
 		094EB85028F5FED70060C2FF /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
 		094EB85228F5FEE30060C2FF /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
 		094EB85428F5FFBC0060C2FF /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
@@ -72,7 +72,6 @@
 				094EB84928F5FDD60060C2FF /* Resources */,
 				094EB83B28F5FBD90060C2FF /* Main.storyboard */,
 				094EB84028F5FBDC0060C2FF /* LaunchScreen.storyboard */,
-				094EB84328F5FBDC0060C2FF /* Info.plist */,
 			);
 			path = "HW-15";
 			sourceTree = "<group>";
@@ -81,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				094EB83E28F5FBDC0060C2FF /* Assets.xcassets */,
+				094EB84328F5FBDC0060C2FF /* Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -374,7 +374,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "HW-15/Info.plist";
+				INFOPLIST_FILE = "HW-15/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -402,7 +402,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "HW-15/Info.plist";
+				INFOPLIST_FILE = "HW-15/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
