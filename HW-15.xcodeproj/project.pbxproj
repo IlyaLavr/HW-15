@@ -19,6 +19,7 @@
 		094EB85728F6005A0060C2FF /* OnboardingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094EB85628F6005A0060C2FF /* OnboardingTableViewCell.swift */; };
 		094EB85928F6008A0060C2FF /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094EB85828F6008A0060C2FF /* SwitchTableViewCell.swift */; };
 		094EB85C28F600C90060C2FF /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 094EB85B28F600C90060C2FF /* SnapKit */; };
+		094EB85E28F601070060C2FF /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094EB85D28F601070060C2FF /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		094EB85428F5FFBC0060C2FF /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		094EB85628F6005A0060C2FF /* OnboardingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingTableViewCell.swift; sourceTree = "<group>"; };
 		094EB85828F6008A0060C2FF /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
+		094EB85D28F601070060C2FF /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 				094EB85428F5FFBC0060C2FF /* OnboardingView.swift */,
 				094EB85628F6005A0060C2FF /* OnboardingTableViewCell.swift */,
 				094EB85828F6008A0060C2FF /* SwitchTableViewCell.swift */,
+				094EB85D28F601070060C2FF /* DetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				094EB85128F5FED70060C2FF /* OnboardingModel.swift in Sources */,
+				094EB85E28F601070060C2FF /* DetailView.swift in Sources */,
 				094EB85928F6008A0060C2FF /* SwitchTableViewCell.swift in Sources */,
 				094EB85728F6005A0060C2FF /* OnboardingTableViewCell.swift in Sources */,
 				094EB83A28F5FBD80060C2FF /* ViewController.swift in Sources */,
