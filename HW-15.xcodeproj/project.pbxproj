@@ -15,6 +15,7 @@
 		094EB84228F5FBDC0060C2FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 094EB84028F5FBDC0060C2FF /* LaunchScreen.storyboard */; };
 		094EB85128F5FED70060C2FF /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094EB85028F5FED70060C2FF /* OnboardingModel.swift */; };
 		094EB85328F5FEE40060C2FF /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094EB85228F5FEE30060C2FF /* Onboarding.swift */; };
+		094EB85528F5FFBC0060C2FF /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094EB85428F5FFBC0060C2FF /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		094EB84328F5FBDC0060C2FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		094EB85028F5FED70060C2FF /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
 		094EB85228F5FEE30060C2FF /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		094EB85428F5FFBC0060C2FF /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 		094EB84F28F5FE740060C2FF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				094EB85428F5FFBC0060C2FF /* OnboardingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				094EB85128F5FED70060C2FF /* OnboardingModel.swift in Sources */,
 				094EB83A28F5FBD80060C2FF /* ViewController.swift in Sources */,
 				094EB85328F5FEE40060C2FF /* Onboarding.swift in Sources */,
+				094EB85528F5FFBC0060C2FF /* OnboardingView.swift in Sources */,
 				094EB83628F5FBD80060C2FF /* AppDelegate.swift in Sources */,
 				094EB83828F5FBD80060C2FF /* SceneDelegate.swift in Sources */,
 			);
