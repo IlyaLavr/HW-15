@@ -11,9 +11,7 @@ import UIKit
 class OnboardingView: UIView {
     
     private let cellIdentifier = "cell"
-    
     var viewControler: UIViewController?
-    
     var models: [Sections] = OnboardingModel.getSections()
     
     private lazy var tableView: UITableView = {
